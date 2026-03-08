@@ -1,0 +1,30 @@
+{
+  "user": {
+    "id": 123,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "age": 30,
+    "active": true,
+    "profile": {
+      "bio": "Software developer with 5 years of experience",
+      "skills": [
+        "JavaScript",
+        "Python",
+        "React"
+      ],
+      "social": {
+        "twitter": "@johndoe",
+        "github": "johndoe"
+      }
+    },
+    "preferences": {
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "sms": null
+      }
+    },
+    "lastLogin": "2025-01-27T12:00:00Z"
+  }
+}

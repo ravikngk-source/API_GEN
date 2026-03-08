@@ -1,0 +1,25 @@
+{
+  "user": {
+    "id": 301,
+    "email": "missing.name@example.com",
+    "age": 40,
+    "active": true,
+    "profile": {
+      "bio": "No name field",
+      "skills": ["Python"],
+      "social": {
+        "twitter": "@noname",
+        "github": "noname"
+      }
+    },
+    "preferences": {
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "sms": null
+      }
+    },
+    "lastLogin": "2026-03-08T12:00:00Z"
+  }
+}

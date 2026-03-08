@@ -1,0 +1,26 @@
+{
+  "user": {
+    "id": 201,
+    "name": "Alice Example",
+    "email": "alice@example.com",
+    "age": 29,
+    "active": true,
+    "profile": {
+      "bio": "QA engineer",
+      "skills": ["Python", "Testing"],
+      "social": {
+        "twitter": "@aliceqa",
+        "github": "aliceqa"
+      }
+    },
+    "preferences": {
+      "theme": "dark",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "sms": null
+      }
+    },
+    "lastLogin": "2026-03-08T10:00:00Z"
+  }
+}

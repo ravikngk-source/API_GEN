@@ -1,0 +1,14 @@
+{
+  "extracted_schema": "C:\\GENAI_Work\\api_GPT\\generated_schema\\extracted_schema.json",
+  "positive_files": [
+    "C:\\GENAI_Work\\api_GPT\\generated_schema\\Valid_positive\\TC_POS_006_Standard_user_dark_theme.json",
+    "C:\\GENAI_Work\\api_GPT\\generated_schema\\Valid_positive\\TC_POS_007_Devops_light_theme_push_enabled.json"
+  ],
+  "negative_files": [
+    "C:\\GENAI_Work\\api_GPT\\generated_schema\\Valid_Negative\\TC_NEG_009_Missing_user_name.json",
+    "C:\\GENAI_Work\\api_GPT\\generated_schema\\Valid_Negative\\TC_NEG_010_Active_as_string.json"
+  ],
+  "validated_files": [
+    "C:\\GENAI_Work\\api_GPT\\Payloads\\validated_payloads.json"
+  ]
+}
