@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
+  "properties": {
+    "users": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "examples": [
+              1
+            ]
+          },
+          "name": {
+            "type": "string",
+            "examples": [
+              "Alice Johnson"
+            ]
+          },
+          "email": {
+            "type": "string",
+            "examples": [
+              "alice@company.com"
+            ]
+          },
+          "age": {
+            "type": "integer",
+            "examples": [
+              28
+            ]
+          },
+          "department": {
+            "type": "string",
+            "examples": [
+              "Engineering"
+            ]
+          },
+          "active": {
+            "type": "boolean",
+            "examples": [
+              true
+            ]
+          }
+        },
+        "examples": [
+          {
+            "id": 1,
+            "name": "Alice Johnson",
+            "email": "alice@company.com",
+            "age": 28,
+            "department": "Engineering",
+            "active": true
+          }
+        ]
+      },
+      "examples": [
+        [
+          {
+            "id": 1,
+            "name": "Alice Johnson",
+            "email": "alice@company.com",
+            "age": 28,
+            "department": "Engineering",
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "Bob Smith",
+            "email": "bob@company.com",
+            "age": 34,
+            "department": "Marketing",
+            "active": false
+          }
+        ]
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "examples": [
+            "1.0"
+          ]
+        },
+        "generated": {
+          "type": "string",
+          "examples": [
+            "2026-03-08T03:09:51.182Z"
+          ]
+        }
+      },
+      "examples": [
+        {
+          "version": "1.0",
+          "generated": "2026-03-08T03:09:51.182Z"
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "users": [
+        {
+          "id": 1,
+          "name": "Alice Johnson",
+          "email": "alice@company.com",
+          "age": 28,
+          "department": "Engineering",
+          "active": true
+        },
+        {
+          "id": 2,
+          "name": "Bob Smith",
+          "email": "bob@company.com",
+          "age": 34,
+          "department": "Marketing",
+          "active": false
+        }
+      ],
+      "metadata": {
+        "version": "1.0",
+        "generated": "2026-03-08T03:09:51.182Z"
+      }
+    }
+  ]
+}
